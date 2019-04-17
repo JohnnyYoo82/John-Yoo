@@ -254,7 +254,7 @@ ORDER BY COUNT(r.rental_id) DESC;
 /*7f. Write a query to display how much business, in dollars, each store brought in.*/
 
 SELECT 
-    s.store_id, SUM(amount) AS Gross
+    s.store_id, SUM(amount) AS total_business
 FROM
     payment p
         JOIN
