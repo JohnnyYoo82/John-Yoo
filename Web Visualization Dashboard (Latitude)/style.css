@@ -1,0 +1,29 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+.bg-success{
+    background-color: teal !important;
+}
+
+body {
+    margin-bottom: 50px;
+    background-color: lightgrey;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: teal;
+}
+
+.border-success{
+    border-color: teal !important;
+    border-width: 3px;
+}
