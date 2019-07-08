@@ -118,8 +118,8 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geo
 
 //  get and add tectonic plates GeoJSON data layer
   d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json",
-    function(platedata) {
-      L.geoJson(platedata, {
+    function(faultlines) {
+      L.geoJson(faultlines, {
         color: "white",
         weight: 3
       })
